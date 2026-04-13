@@ -12,8 +12,8 @@ on:
 
 jobs:
   check-and-update:
-    # Only do this job on the main repo (and not forks of it).
-    if: github.repository == 'apple/swift-protobuf'
+    # # Only do this job on the main repo (and not forks of it).
+    # if: github.repository == 'apple/swift-protobuf'
     runs-on: ubuntu-latest
     # Ensure we have the latest Swift in case Reference can be updated.
     container:
